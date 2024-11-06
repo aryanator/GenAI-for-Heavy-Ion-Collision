@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 "# GenAI-for-Heavy-Ion-Collision" 
 "# Classification-using-Transformers" 
 "# Classification-using-Transformers" 
@@ -12,5 +12,5 @@ GenAI-for-Heavy-Ion-Collision
  traditional methods in handling noisy data, which led to more robust predictions than Neural Networks.
  • Impact: As the sole ML expert, reduced experimental time and resources by over 100 times, providing a scalable
  AI alternative to lab experiments and advancing the integration of Generative AI into the field of Nuclear Physics.
->>>>>>> 63dcb8cecbcc6d25f4053b8a89a0f32f400cb92f
+
 "# Classification-using-Transformers" 
