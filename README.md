@@ -9,6 +9,10 @@ GenAI-for-Heavy-Ion-Collision
  • Impact: As the sole ML expert, reduced experimental time and resources by over 100 times, providing a scalable
  AI alternative to lab experiments and advancing the integration of Generative AI into the field of Nuclear Physics.
 
+Goal: In 3D Hydro collisions, we wanted to see if there exists a critical point or not in the collisons of the heavy ions. 
+However, the limitation was that the data was limited to work with. ANd to find the critical point, a lot more data is required but performing such lab experiments takes a lot of time and resources.
+Thus, the goal was to leverage the predictive power of Machine Learning to generate data on a latrge scale and check for the existence of such a critical point.
+
 Here I have the initial state of 3D Hyrdrdynamic collisions of nuclei of Gold(Au), Ruthenium(Ru), and Zurkonium(Zr) at different energy levels.
 The goal is to predict the final state and important to note that the data contains lots of noise.
 This includes predicting the final Charge distribution, Proton distribution, Baryon Distribution, Neutron Distribution, etc.
@@ -33,3 +37,5 @@ Code:
 1. Ru_Zr_Au model is a transformer trained on Ru, Zr, and Au nuclei
 2. Au model is a transformer trained on Au collisions but predicting Final state of all possible energies
 3. Data Visualization.ipynb contains visualizations of the heavy ion collisions, very vital for this task to get an overview of energy conservation
+
+Besides, a lot of other undocumented work and attempts were made. If curious or want to see what went wrong visit- https://www.kaggle.com/work/collections/14401886
