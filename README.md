@@ -22,6 +22,12 @@ Tried the following models:
 6. The Multi attention Transformer
 
 The Transformer model worked the best because of the sequential and noisy nature of data. Leveraging the attention mechanism preserves the context of the evolution in the collision and successfuly ignores the noise altogether through positional encondings.
+Summary of the techniques used-
+1. Finetuning the model on multiple parameters including the model architecture
+2. Tried multiple loss functions and Huber loss gave the best results
+3. Designed a custom Guassian filter to remove the random noises in data
+4. Tried techniques like standarzing the data and then deconvoluting or inversing the predictions to obtain the accurate results
+And a lot of other minor hacks to gradually improve the result
 
 Code:
 1. Ru_Zr_Au model is a transformer trained on Ru, Zr, and Au nuclei
